@@ -5,7 +5,7 @@ run() {
     tar -zxf *.tar.gz
     cd dist
     tar -zxvf apache*.tar.gz
-    rm apache*.tar.gz after
+    rm apache*.tar.gz
     cd apache*
     cp ../../requirements.txt .
     cat ../../requirements-db.txt >> requirements.txt
